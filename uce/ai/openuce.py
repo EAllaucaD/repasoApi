@@ -2,7 +2,7 @@ import openai
 from pydantic import BaseModel
 
 openai.organization = 'org-2wJUCGKBvFD1KsyjlmtDw8yo'
-openai.api_key = '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'
+openai.api_key = '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'
 
 
 class Document(BaseModel):

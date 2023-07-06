@@ -1,9 +1,10 @@
 from fastapi import FastAPI
-
+import uvicorn
 from uce.ai.openuce import Document, process_inference
 
 app = FastAPI()
-
+if __name__ == "__main__":
+    uvicorn.run(app, host="127.0.0.1", port=8050)
 
 @app.get("/")
 async def root():

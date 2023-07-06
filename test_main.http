@@ -10,17 +10,17 @@ Accept: application/json
 
 ###
 
-POST http://127.0.0.1:8000/inference
+POST http://127.0.0.1:8050/inference
 Accept: application/json
 Content-Type: application/json
 
 {
-  "item": "Programacion orienta a objetos "
+  "item": "Programacion orientada a objetos "
 }
 
 ###
 
-POST http://127.0.0.1:8000/inference
+POST http://127.0.0.1:8050/inference
 Accept: application/json
 Content-Type: application/json
 
